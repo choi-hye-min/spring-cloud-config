@@ -1,0 +1,11 @@
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/choi-hye-min/cloud-config-properties
+                    default-label: master
+    application:
+        name: 'configServer'
+server:
+    port: 8088
